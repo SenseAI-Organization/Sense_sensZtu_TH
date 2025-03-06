@@ -26,7 +26,8 @@
  * @retval 0 If the device is already on the latest firmware version or an error occurred.
  * @retval 1 If a new firmware version is available.
  */
-int firmwareVersionCheck(void);
+int firmwareVersionCheck();
+bool isNewerVersion(const char* serverVersion, const char* deviceVersion);
 
 /**
  * @brief Updates the firmware of the device.
@@ -36,7 +37,7 @@ int firmwareVersionCheck(void);
  *
  * @note Make sure the device is connected to Wi-Fi and the server URL and root certificate are correctly set.
  */
-void firmwareUpdate(void);
+bool firmwareUpdate();
 
 #endif /* INNOVAOTA_H */
 
