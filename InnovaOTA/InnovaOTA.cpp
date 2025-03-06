@@ -4,8 +4,8 @@
  ** ****************************************************************************/
 #include "InnovaOTA.h"
 
-extern const char* firmwareVer;
-extern const char* hardwareVer;
+extern const char *firmwareVer;
+extern const char *hardwareVer;
 
 /** ****************************************************************************
  ** ************ DEFINES *******************************************************
