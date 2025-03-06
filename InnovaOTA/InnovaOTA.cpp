@@ -18,7 +18,7 @@ extern const char *hardwareVer;
  ** ************ VARIABLES *****************************************************
  ** ****************************************************************************/
 const char *rootCACertificate =     //Certificado de GitHub; deberá cambiarse por URL elegido
-    "-----BEGIN CERTIFICATE-----\n"
+"-----BEGIN CERTIFICATE-----\n"
 "MIIEoTCCBEigAwIBAgIRAKtmhrVie+gFloITMBKGSfUwCgYIKoZIzj0EAwIwgY8x\n"
 "CzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAOBgNV\n"
 "BAcTB1NhbGZvcmQxGDAWBgNVBAoTD1NlY3RpZ28gTGltaXRlZDE3MDUGA1UEAxMu\n"
