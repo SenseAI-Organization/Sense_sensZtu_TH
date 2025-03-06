@@ -11,8 +11,8 @@ extern const char *hardwareVer;
  ** ************ DEFINES *******************************************************
  ** ****************************************************************************/
 // URLs to query new firmware version
-#define URL_FW_VER "https://raw.githubusercontent.com/SenseAI-Organization/Sense_sensZtu_TH/refs/heads/main/bin_version.txt"   //URL WITH FIRMWARE VERSION
-#define URL_FW_BIN "https://raw.githubusercontent.com/SenseAI-Organization/Sense_sensZtu_TH/refs/heads/main/firmware.bin"   //URL WITH BIN
+#define URL_FW_VER "https://raw.githubusercontent.com/SenseAI-Organization/Sense_sensZtu_TH/main/bin_version.txt"   //URL WITH FIRMWARE VERSION
+#define URL_FW_BIN "https://raw.githubusercontent.com/SenseAI-Organization/Sense_sensZtu_TH/main/firmware.bin"   //URL WITH BIN
 
 /** ****************************************************************************
  ** ************ VARIABLES *****************************************************
